@@ -1,0 +1,243 @@
+{% extends 'base.html' %}
+{% block content %}
+<section class="hero">
+    <div class="hero-content">
+        <h1 class="hero-title">Made easy for students</h1>
+        <p class="hero-paragraph">
+           Get immense knowledge about known and unknown topics and get all of your queries answered.
+        </p>
+        <div class="hero-options">
+            <a href="{% url 'qesbase:question-lists' %}" class="btn btn-developers" style="margin-left: 5px;">Latest Questions</a>
+            
+
+        </div>
+    </div>
+</section>
+
+
+<section class="for-developers">
+   <div class="container">
+       <div class="section-head">
+           <h2 class="section-title">For Engineers, By Engineers
+           </h2>
+           <div class="section-line"></div>
+           <p class="section-description">QES is <a href="#">Quora for Engineering Students</a> which is a Q&A platform that empowers students to share and grow in their respective fields. <br>It features question and answers on a wide range of topics in Engineering. QES is a place to share knowledge and better understand the technology. Get better connected engineering community to tackle all kinds of academic and non academical questions and problems.
+           </p>
+       </div>
+       <div class="options">
+           <div class="option">
+               <div class="option-icon">
+                   <img src="https://cdn.sstatic.net/Img/home/public-qa.svg?v=d82acaa7df9f" alt=" Q & A">
+               </div>
+               <div class="option-title">
+                    Public Q&A
+               </div>
+               <div class="option-description">
+                   Get answers to more than 16.5 million questions and share your knowledge with others.
+                   <a href="#">Sign up</a> for an account.
+               </div>
+               <div class="option-button">
+                   <a href="#" class="option-link btn btn-dark-blue">
+                       Browse questions
+                   </a>
+               </div>
+           </div>
+           <div class="option">
+               <div class="option-icon">
+                   <img src="https://cdn.sstatic.net/Img/home/private-qa.svg?v=2c1de180b6d7" alt=" Q & A">
+               </div>
+               <div class="option-title">
+                    Private Q&A
+               </div>
+               <div class="option-description">
+                   Level up with QES while you study. Share knowledge privately with your friends using our flagship Q&A engine.
+               </div>
+               <div class="option-button">
+                   <a href="#" class="option-link btn btn-orange">
+                       Try for free
+                   </a>
+               </div>
+           </div>
+           <div class="option">
+               <div class="option-icon">
+                   <img src="https://cdn.sstatic.net/Img/home/jobs.svg?v=931d6c0863ee" alt="Browse questions">
+               </div>
+               <div class="option-title">
+                    Q&A
+               </div>
+               <div class="option-description">
+                An online community of students providing answers to questions and more.
+
+
+               </div>
+               <div class="option-button">
+                   <a href="#" class="option-link btn btn-dark-blue">
+                       Find technologies
+                   </a>
+               </div>
+           </div>
+       </div>
+   </div>
+</section>
+
+<section class="for-businesses">
+    <div class="container">
+        <div class="section-head">
+            <h2 class="section-title">For Engineers, By Engineers</h2>
+            <div class="section-line"></div>
+            <p class="section-description">Our mission is to keep everyone focused on where the technology is going and what it is trying to achieve,  define the core values of the technologies and how people are expected to behave. We provide clues to the way the institution treats students, and to its expectations of students.</p>
+        </div>
+
+
+
+        <div class="options">
+            <div class="option">
+                <div class="option-icon">
+                    <img src="https://cdn.sstatic.net/Img/home/private-questions.svg?v=a4f1cfb08f7e" alt=" Q&A">
+                </div>
+                <div class="option-description">
+                    Quickly find and share internal knowledge with <a href="#" class="option-link"> Q&A</a>
+                </div>
+            </div>
+            <div class="option">
+                <div class="option-icon">
+                    <img src="https://cdn.sstatic.net/Img/home/find-candidate.svg?v=9099aa106ad3" alt="Talent solutions">
+                </div>
+                <div class="option-description">
+                    Find the perfect candidate for your growing technical team with <a href="#" class="option-link">Talent solutions</a>
+
+
+                </div>
+            </div>
+            <div class="option">
+                <div class="option-icon">
+                    <img src="https://cdn.sstatic.net/Img/home/accelerate.svg?v=9d4c2786ff02" alt=" Advertising platform">
+                </div>
+                <div class="option-description">
+                    Accelerate the discovery of your products or services through our <a href="#" class="option-link">Advertising platform</a>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+</section>
+
+<section class="hire">
+    <div class="container">
+        <div class="hire-content">
+            <div class="hire-item">
+                <img src="https://cdn.sstatic.net/Img/home/find-candidate.svg?v=9099aa106ad3" alt="" class="hire-icon">
+                <h4 class="hire-item-title">Find talents</h4>
+                <p class="hire-item-description">Our notion of better connected engineering community to tackle all kinds of academic and non academic questions and problems would make the engineering community better. Establishing a community based platform which will help location barrier of Engineering</p>
+                <a href="#" class="btn btn-orange">QES Talents</a>
+            </div>
+            <div class="hire-item">
+                <img src="https://cdn.sstatic.net/Img/home/accelerate.svg?v=9d4c2786ff02" alt="" class="hire-icon">
+                <h4 class="hire-item-title">Reach  worldwide
+                </h4>
+                <p class="hire-item-description">Use the world’s largest resource for students who think great to help you increase awareness and showcase your skills and talents across QES’s network of Q&A sites. </p>
+                <a href="#" class="btn btn-orange">QES Advertising</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="questions">
+    <div class="container">
+       <div class="questions-content">
+           <div class="questions-header">
+               <h3 class="question-title">Questions are everywhere, answers are on QES</h3>
+           </div>
+           <div class="questions-body">
+               <div class="questions-body-items">
+                   <div class="questions-body-item" data-id="0">
+                       <img src="https://cdn.sstatic.net/Img/home/ask-a-question.svg?v=f4f2050b0297" alt="" class="question-item-icon">
+                       <div class="question-item-text">Ask a question</div>
+                       <div class="question-arrow-right"></div>
+                   </div>
+                   <div class="questions-body-item"  data-id="1">
+                       <img src="https://cdn.sstatic.net/Img/home/votes.svg?v=748a8f48a8e2" alt="" class="question-item-icon">
+                       <div class="question-item-text">Vote on everything</div>
+                       <div class="question-arrow-right"></div>
+                   </div >
+                   <div class="questions-body-item"  data-id="2">
+                       <img src="https://cdn.sstatic.net/Img/home/answer.svg?v=4cd8048a676c" alt="" class="question-item-icon">
+                       <div class="question-item-text">Answer questions</div>
+                       <div class="question-arrow-right"></div>
+                   </div>
+               </div>
+               <div class="questions-body-item-content">
+                   <img src="https://cdn.sstatic.net/Img/home/illo-feats-vote.svg?v=9d2eb0efdc17" alt="" class="question-item-content-img">
+                   <h4 class="question-item-content-text">
+                       Accept the answer which solved your problem to let others benefit from the valuable information.
+                   </h4>
+                   <a href="#" class="btn btn-orange question-item-content-btn">Create an account</a>
+               </div>
+               <div class="questions-body-items">
+                   <div class="questions-body-item"  data-id="3">
+                       <img src="https://cdn.sstatic.net/Img/home/tags.svg?v=913379eb09eb" alt="" class="question-item-icon">
+                       <div class="question-item-text">Tag your question</div>
+                       <div class="question-arrow-left"></div>
+                   </div>
+                   <div class="questions-body-item"  data-id="4">
+                       <img src="https://cdn.sstatic.net/Img/home/accept.svg?v=27d5be078970" alt="" class="question-item-icon">
+                       <div class="question-item-text">Accept an answer</div>
+                       <div class="question-arrow-left"></div>
+                   </div>
+                   <div class="questions-body-item"  data-id="5">
+                       <img src="https://cdn.sstatic.net/Img/home/get-recognized.svg?v=3b339d9aa10c" alt="" class="question-item-icon">
+                       <div class="question-item-text">Get recognized</div>
+                       <div class="question-arrow-left"></div>
+                   </div>
+               </div>
+           </div>
+           <div class="questions-footer">
+               <h3 class="question-title">Learn and grow with QES</h3>
+               <div class="questions-grid">
+                   <div class="questions-grid-item">
+                       <div class="grid-item-img">
+                           <img src="https://cdn.sstatic.net/Img/home/developer.svg?v=b930de7967a7" alt="">
+                       </div>
+                       <h4 class="grid-item-title">Write the answers for future use and help others to learn</h4>
+                       <p class="grid-item-description">Get your questions answered to learn, build, and level up whether you’re beginning with
+                            professionals.
+                       </p>
+                   </div>
+                   <div class="questions-grid-item">
+                       <div class="grid-item-img">
+                           <img src="https://cdn.sstatic.net/Img/home/open-source.svg?v=847b604fd2ab" alt="">
+                       </div>
+                       <h4 class="grid-item-title">Support open source
+                       </h4>
+                       <p class="grid-item-description">Reach students of your project by following tags, answering newcomer questions, and empowering experts in the community. Read the creator’s story.
+
+
+                       </p>
+                   </div>
+                   <div class="questions-grid-item">
+                       <div class="grid-item-img">
+                           <img src="https://cdn.sstatic.net/Img/home/advocate.svg?v=4b03cfb93502" alt="">
+                       </div>
+                       <h4 class="grid-item-title">Acquire and share knowledge
+                       </h4>
+                       <p class="grid-item-description">Answer questions and gain insights from an audience of developers using your technology on Stack Overflow.
+                       </p>
+                   </div>
+                   <div class="questions-grid-item">
+                       <div class="grid-item-img">
+                           <img src="https://cdn.sstatic.net/Img/home/career-switcher.svg?v=a41416ff19df" alt="" >
+                       </div>
+                       <h4 class="grid-item-title">Find career opportunities
+                       </h4>
+                       <p class="grid-item-description">Create a profile that shows off your expertise and credentials to help you make your next move. Start your
+                           <a href="#">Career here by gaining immense knowledge</a>.
+                       </p>
+                   </div>
+               </div>
+           </div>
+       </div>
+    </div>
+</section>
+
+{% endblock content %}
